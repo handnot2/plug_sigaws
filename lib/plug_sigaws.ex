@@ -4,6 +4,8 @@ defmodule PlugSigaws do
 
   (Refer to this [Blog post](https://handnot2.github.io/blog/elixir/aws-signature-sigaws))
 
+  [![Inline docs](http://inch-ci.org/github/handnot2/plug_sigaws.svg)](http://inch-ci.org/github/handnot2/plug_sigaws)
+
   ### Plug Pipeline Setup
 
   This plug relies on `sigaws` library to verify the signature. When the

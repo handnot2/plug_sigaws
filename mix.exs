@@ -1,7 +1,7 @@
 defmodule PlugSigaws.Mixfile do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
   @description """
   Elixir Plug for authenticating HTTP requests using AWS Signature V4.
   """
@@ -31,6 +31,7 @@ defmodule PlugSigaws.Mixfile do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev},
+      {:inch_ex, "~> 0.5", only: :docs},
       {:plug, "~> 1.2"},
       {:sigaws, "~> 0.1"}
     ]

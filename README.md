@@ -2,6 +2,8 @@
 
 An Elixir Plug to verify HTTP requests signed with AWS Signature V4. 
 
+[![Inline docs](http://inch-ci.org/github/handnot2/plug_sigaws.svg)](http://inch-ci.org/github/handnot2/plug_sigaws)
+
 ## Installation
 
 This package can be installed by adding `plug_sigaws` to your list of
